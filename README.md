@@ -39,7 +39,7 @@ git clone https://github.com/SMILELab-FL/FedPETuning.git FedETuning
 
 ### Setup
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Data Preparation
