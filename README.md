@@ -71,6 +71,14 @@ bash cen_run.sh {your_file_path}/workspace {task_name} centralized 10001 {server
 
 Hyperparameters  in ```FedETuning/run/fedavg(centralized)/config.yaml```
 
+### My Command:
+
+```bash
+srun -c --gres=gpu:a40:1 --pty bash
+echo $CUDA_VISIBLE_DEVICES
+python fed_seed_run.py /nfs-share/wz341/NIPS/workspace fedavg rte lora 10001 0,1,2,3
+```
+
 ## Citation
 
 If you find FedPETuning useful or relevant to your research, please kindly cite our paper:
